@@ -1,0 +1,27 @@
+{
+  "name": "mithril-messaround",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "start": "neutrino start --presets neutrino-preset-web",
+    "build": "neutrino build --presets neutrino-preset-web"
+  },
+  "dependencies": {
+    "mithril": "^1.0.1",
+    "purecss": "^0.6.2"
+  },
+  "config": {
+    "neutrino": {
+      "devServer": {
+        "port": 9000
+      }
+    }
+  },
+  "devDependencies": {
+    "neutrino": "^4.3.1",
+    "neutrino-preset-airbnb-base": "^4.3.1",
+    "neutrino-preset-web": "^4.2.3"
+  }
+}
